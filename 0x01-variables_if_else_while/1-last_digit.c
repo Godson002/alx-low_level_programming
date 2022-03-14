@@ -1,31 +1,25 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <time.h>
+/* more headers goes there */
 
 /**
- * main - assign a random number to the variable n each time it is executed
- * The string Last difit of n
- * Return: 0
+ * main - entry point
+ *
+ * Return: 0 if success
  */
 int main(void)
 {
-  int n, lastDigit;
-  
+  int n;
+
   srand(time(0));
   n = rand() - RAND_MAX / 2;
-  lastDigit = n % 10;
-if (lastDigit > 5 )
-{
-printf("Last digit of %d and is greater than 5\n", n, lastDigit);
-}
- else if (lastDigit == 0)
-{
-printf("Last digit of %d is %d and is 0\n", n, lastDigit);
-}
-else if(lastDigit < 6 && lastDigit != 0)
-{
-printf("Last digit of %d is %d and is less than 6 and ", n, lastDigit);
-printf("not 0\n");
-}
-return (0);
+  /* your code goes there */
+  if (n > 0)
+    printf("%d is positive\n", n);
+  else if (n == 0)
+    printf("%d is zero\n", n);
+  else
+    printf("%d is negative\n", n);
+  return (0);
 }
