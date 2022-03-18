@@ -1,4 +1,5 @@
 #include "putchar.c"
+#include "main.h"
 
 /**
  * main - program that prints Holberton.
