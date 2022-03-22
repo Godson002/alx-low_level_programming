@@ -23,6 +23,6 @@ passw += password[i];
 }
 complem = 2772 - passw;
 password[i] = complem;
-printf("Tada! congrats %s\n",  password);
+printf("Tada! congrats %s\n");
 return (0);
 }
