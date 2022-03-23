@@ -1,4 +1,4 @@
-#include "alphabet.c"
+#include <stdio.h>
 
 /**
  * print_alphabet - function that prints the alphabet, lowercase
@@ -6,7 +6,7 @@
  * Return: nothing.
  */
 
-void print_alphabet(void)
+main print_alphabet(void)
 {
 int l = 'a';
 
