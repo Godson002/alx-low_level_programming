@@ -1,4 +1,4 @@
-#include "alphabet.c"
+#include <stdio.h>
 
 /**
  * _islower - function that checks for lowercase character.
@@ -6,7 +6,7 @@
  * Return: int.
  */
 
-int _islower(int c)
+int test_islower(int c)
 {
 if (c >= 97 && c <= 122)
 return (1);
