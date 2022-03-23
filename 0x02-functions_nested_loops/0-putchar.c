@@ -13,9 +13,9 @@ char str_hbt[9] = "_putchar";
 
 while (n < 9)
 {
-_putchar(str_hbt[n]);
+putchar(str_hbt[n]);
 n += 1;
 }
-_putchar('\n');
+putchar('\n');
 return (0);
 }
