@@ -15,7 +15,7 @@ char s1[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 for (; str[i] != '\0'; i++)
 {
-for (k = 0; k <= 51; k++)
+  for (; k = 0; k <= 51; k++)
 {
 if (s[k] == str[i])
 {
