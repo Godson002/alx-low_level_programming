@@ -7,7 +7,7 @@
  * @src: s2
  * Return: Always 0.
  */
-char *_strncat(char *dest, char *src, int n)
+char *strncat(char *dest, char *src, int n)
 {
 
 int i = 0, c = 0, s = 0;
