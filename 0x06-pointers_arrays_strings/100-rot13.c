@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * rot13 - Function that reverses the content of an array of integers.
